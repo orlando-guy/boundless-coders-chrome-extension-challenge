@@ -1,0 +1,13 @@
+{
+    "manifest_version": 3,
+    "name": "BOUNDLESS CODERS New Tab",
+    "version": "1.0",
+    "description": "Customize your new tab with BOUNDLESS CODERS branding.",
+    "permissions": ["activeTab"],
+    "chrome_url_overrides": {
+        "newtab": "newtab.html"
+    },
+    "icons": {
+        "48": "images/icon.png"
+    }
+}
